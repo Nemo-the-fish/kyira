@@ -20,8 +20,8 @@
 			bindings = <
 	&kp TAB   &kp Q &kp W &kp E &kp R &kp T                                                &kp Y &kp U  &kp I    &kp O   &kp P    &kp ESC
 	&kp LCTRL  &kp A &kp S &kp D &kp F &kp G                                                &kp H &kp J  &kp   K   &kp L   &kp SEMI &kp SQT
-	&kp LSHFT &kp Z &kp X &kp C &kp V &kp B &mo 2 &kp LSHFT        &kp LSHFT &mo 3 &kp N &kp M  &kp COMMA &kp PERIOD &kp FSLH &kp RGUI
-	                 &kp LCTRL &kp LALT &mo 1 &kp SPACE &kp LSHFT      &kp LSHFT  &kp BSPC  &mo 1 &kp RET &kp RALT
+	&kp LEFT_SHIFT &kp Z &kp X &kp C &kp V &kp B &mo 2 &kp LEFT_SHIFT        &kp LEFT_SHIFT &mo 3 &kp N &kp M  &kp COMMA &kp PERIOD &kp FSLH &kp RGUI
+	                 &kp LCTRL &kp LALT &mo 1 &kp SPACE &kp LEFT_SHIFT      &kp LEFT_SHIFT  &kp BSPC  &mo 1 &kp RET &kp RALT
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -32,8 +32,8 @@
             bindings = <
         &kp TAB   &kp N7 &kp N8 &kp N9 &kp EQUAL &kp MINUS                                                &none &none       &none    &none      &none &kp ESC
 	&kp LCTRL   &kp N4 &kp N5 &kp N6 &kp GRAVE &none                                                &none &none      &kp UP &none    &none &kp SQT
-	&kp LSHFT &kp N1 &kp N2 &kp N3 &none &none&kp LSHFT &kp LSHFT        &kp LSHFT &kp LSHFT &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &kp RCTRL
-	                 &kp LCTRL &kp LALT &none &kp SPACE &kp LSHFT        &kp LSHIFT  &kp BSPC  &none &kp RET &kp RALT
+	&kp LEFT_SHIFT &kp N1 &kp N2 &kp N3 &kp N0 &none&kp LEFT_SHIFT &kp LEFT_SHIFT        &kp LEFT_SHIFT &kp LEFT_SHIFT &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &kp RCTRL
+	                 &kp LCTRL &kp LALT &none &kp SPACE &kp LEFT_SHIFT        &kp LEFT_SHIFT  &kp BSPC  &none &kp RET &kp RALT
 			 
             		>;
 			
@@ -44,8 +44,8 @@
             bindings = <
         &kp TAB  &kp F7 &kp F8 &kp F9 &none &none                                                &kp Y &kp U  &kp I     &kp O   &kp P    &kp ESC
 	&kp LCTRL   &kp F4 &kp F5 &kp F6 &none &none                                                &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-	&kp LSHFT &kp F1 &kp F2 &kp F3 & N0 &none &none &kp LSHFT        &kp LSHFT &none         &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RGUI
-	                 &kp LCTRL &kp LALT &none &kp SPACE &kp LSHFT        &kp LSHIFT  &kp BSPC  &none &kp RET &kp RALT
+	&kp LEFT_SHIFT &kp F1 &kp F2 &kp F3 &none &none &none &kp LEFT_SHIFT        &kp LEFT_SHIFT &none         &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RGUI
+	                 &kp LCTRL &kp LALT &none &kp SPACE &kp LEFT_SHIFT        &kp LEFT_SHIFT  &kp BSPC  &none &kp RET &kp RALT
 			 
             		>;
 			
