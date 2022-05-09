@@ -75,7 +75,7 @@
         &none &none &none &none &none &none                                            &none &none &none &none &none &none
 	&none &sk LCTRL &sk LGUI &sk LALT &sk RSHIFT &none                             &none &none  &none &none &none &none
 	&none &none &none &none &none &none     &none &none        &none &none        &none &none &none &none &none &none
-	                     &none &none &none &kp space &none         &none &none   &none &none &none
+	                     &none &none &none &kp SPACE &none         &none &none   &none &none &none
 			 
             		>;
 			
