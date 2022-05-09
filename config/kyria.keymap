@@ -6,8 +6,8 @@
 #define DEFAULT 0
 #define NUM  1
 #define FKEY   2
-#define BT 0
-#define ONESHOT  1
+#define BT 3
+#define ONESHOT  4
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
